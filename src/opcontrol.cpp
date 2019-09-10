@@ -104,7 +104,7 @@ int LIFT_DOWN = 100;
         break;
       case 2:
         tilter.move_absolute(TILT_UP, 25);
-        lift.move(-4);
+        lift.move(-7);
         break;
       case 3:
         tilt_goal = 2;
