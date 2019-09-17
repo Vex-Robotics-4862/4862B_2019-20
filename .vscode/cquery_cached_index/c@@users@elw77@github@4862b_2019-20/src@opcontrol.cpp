@@ -111,11 +111,6 @@ int LIFT_DOWN = 100;
         break;
     }
 
-
-
-
-
-
  		pros::delay(20);
  	}
  }

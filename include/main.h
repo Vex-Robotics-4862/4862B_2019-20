@@ -36,11 +36,20 @@
 
 #include "api.h"
 
+//TODO: replace function poitners with std::function
+
 /**
  * You should add more #includes here
  */
 //#include "okapi/api.hpp"
 //#include "pros/api_legacy.h"
+#include <functional>
+#include "Controls.hpp"
+#include "Drive.hpp"
+#include "Poller.hpp"
+#include "Sensors.hpp"
+#include "StateMachine.hpp"
+#include "Subsystem.hpp"
 
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
